@@ -2,7 +2,7 @@
 
 ## Equipe  
     - Caio Vinicius Esmagnoto
-    - Yannis
-    - Ilies
+    - Yannis Legros
+    - Younesse Talib
 
 ## Stntaxe du projet
