@@ -1,4 +1,4 @@
-package Graphes;
+package graph;
 
 
 import java.util.ArrayList;
@@ -12,6 +12,16 @@ public class GraphList implements Graph<Integer> {
 
     public GraphList(List<Integer> l) {
         listGraph = l;
+        allArcs = allArcs();
+    }
+
+    public GraphList(int[] l)
+    {
+        listGraph = new ArrayList<>();
+        for(int i : l)
+        {
+            listGraph.add(i);
+        }
         allArcs = allArcs();
     }
 

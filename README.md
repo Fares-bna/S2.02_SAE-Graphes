@@ -1,4 +1,4 @@
-# SAE R202 Graphes Groupe 111
+# SAE R202 graph Groupe 111
 
 ## Equipe  
     - Caio Vinicius Esmagnoto
