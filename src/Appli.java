@@ -1,6 +1,4 @@
-import Graphes.Graph;
-import Graphes.GraphList;
-import Graphes.GraphMatriceAdjacence;
+import graph.GraphList;
 
 import java.util.ArrayList;
 
