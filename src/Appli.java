@@ -1,4 +1,4 @@
-import graph.GraphList;
+import graph.IGraphList;
 
 import java.util.ArrayList;
 
@@ -10,6 +10,6 @@ public class Appli {
         {
             l.add(k);
         }
-        GraphList g = new GraphList(l);
+        IGraphList g = new IGraphList(l);
     }
 }

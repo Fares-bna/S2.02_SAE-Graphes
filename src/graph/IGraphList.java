@@ -5,12 +5,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class GraphList implements Graph<Integer> {
+public class IGraphList implements IGraph<Integer> {
 
     private List<Integer> listGraph;
     private HashMap<Integer, ArrayList<Arc<Integer>>> allArcs;
 
-    public GraphList(List<Integer> l) {
+    public IGraphList(List<Integer> l) {
         listGraph = l;
         allArcs = allArcs();
     }
