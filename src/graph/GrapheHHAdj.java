@@ -2,7 +2,7 @@ package graph;
 
 import java.util.List;
 
-public class GrapheHHAdj implements VarGraph {
+public class GrapheHHAdj implements IVarIGraph {
 
     @Override
     public List<Arc<String>> getSucc(String s) {

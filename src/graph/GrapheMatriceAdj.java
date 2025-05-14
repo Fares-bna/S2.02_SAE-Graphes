@@ -2,7 +2,7 @@ package graph;
 
 import java.util.List;
 
-public class GrapheMatriceAdj implements Graph<String> {
+public class GrapheMatriceAdj implements IGraph<String> {
     private String a;
 
     public GrapheMatriceAdj() {

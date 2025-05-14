@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.List;
-import graph.Graph;
+import graph.IGraph;
 import graph.GrapheHHAdj;
-import graph.ShortestPath.Distances;
-import graph.VarGraph;
+import graph.IShortestPath.Distances;
+import graph.IVarIGraph;
 import org.junit.jupiter.api.Test;
 
 import dijkstra.Dijkstra;
@@ -24,12 +24,12 @@ class DijkstraTest {
 
     @Test
     void test() {
-        VarGraph g = new GrapheHHAdj();
+        IVarIGraph g = new GrapheHHAdj();
         g.peupler(GRAPH1);
         tester(g);
     }
 
-    void tester(Graph<String> g) {
+    void tester(IGraph<String> g) {
         Distances<String> dst = dijkstra.compute(g, FROM);
         assertEquals(EXPECTED_DIST, dst.dist().get(TO));
         String c = EXPECTED_PATH.get(0);
@@ -42,14 +42,14 @@ class DijkstraTest {
 
     @Test
     void pasDeValuationNegative() {
-        VarGraph g = new GrapheHHAdj();
+        IVarIGraph g = new GrapheHHAdj();
         g.peupler(GRAPH_NEG);
         assertThrows(IllegalArgumentException.class,
                 ()->  dijkstra.compute(g, FROM));
     }
     @Test
     void utilisationDuResultat() {
-        VarGraph g = new GrapheHHAdj();
+        IVarIGraph g = new GrapheHHAdj();
         g.peupler(GRAPH1);
         Distances<String> dst = dijkstra.compute(g, FROM);
         System.out.println("Graphe : " + g);
