@@ -1,9 +1,9 @@
 package graph;
 
-public record DestVal(String suc, int val) {
+public record DestVal(String dest, int val) {
 
-    public String getsuc() {
-        return suc;
+    public String getDest() {
+        return dest;
     }
     public int getVal() {
         return val;

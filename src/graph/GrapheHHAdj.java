@@ -16,8 +16,15 @@ public class GrapheHHAdj implements VarGraph {
 
 	@Override
 	public List<Arc<String>> getSucc(String s) {
-		// TODO Auto-generated method stub
-		return null;
+		ArrayList<Arc<String>> succs = new ArrayList<>();
+		if(allArcs.containsKey(s)) {
+			for(DestVal d : allArcs.get(s))
+			{
+				succs.add(new Arc<>(d.getVal(), d.getDest()));
+			}
+		}
+
+		return succs;
 	}
 
 	@Override
@@ -44,7 +51,7 @@ public class GrapheHHAdj implements VarGraph {
 		for (String s : allSommets) {
 			if(allArcs.containsKey(s)) {
 				for (DestVal d : allArcs.get(s)) {
-					sb.append(s + " - " + d.getsuc() + " (" + d.getVal() + ")");
+					sb.append(s + " - " + d.getDest() + " (" + d.getVal() + ")");
 					sb.append("\n");
 				}
 			}
