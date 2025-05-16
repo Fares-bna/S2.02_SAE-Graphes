@@ -14,6 +14,10 @@ public class GrapheHHAdj implements VarGraph {
 		allArcs = new HashMap<>();
 	}
 
+	public ArrayList<String> getAllSommets() {
+		return allSommets;
+	}
+
 	@Override
 	public List<Arc<String>> getSucc(String s) {
 		ArrayList<Arc<String>> succs = new ArrayList<>();
