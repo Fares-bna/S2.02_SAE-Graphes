@@ -1,6 +1,8 @@
 import graph.Graph;
 import graph.GrapheHHAdj;
 import graph.VarGraph;
+import graph.IGraphList;
+import java.util.ArrayList;
 
 public class Appli {
     public static void main(String[] args) {
@@ -10,5 +12,6 @@ public class Appli {
         {
             System.out.println(a);
         }
+        IGraphList g = new IGraphList(l);
     }
 }
