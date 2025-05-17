@@ -12,6 +12,5 @@ public class Appli {
         {
             System.out.println(a);
         }
-        IGraphList g = new IGraphList(l);
     }
 }
