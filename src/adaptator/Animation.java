@@ -7,7 +7,6 @@ import java.util.Arrays;
 import java.util.List;
 
 import graph.IGraph;
-import graph.IShortestPath.Distances;
 import maze.panel.MazeView;
 import maze.regular.RegularMaze;
 import dijkstra.Dijkstra;

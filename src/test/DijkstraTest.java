@@ -7,8 +7,6 @@ import java.util.Deque;
 import java.util.List;
 import graph.IGraph;
 import graph.GrapheHHAdj;
-import graph.IShortestPath.Distances;
-import graph.IVarIGraph;
 import org.junit.jupiter.api.Test;
 
 import dijkstra.Dijkstra;

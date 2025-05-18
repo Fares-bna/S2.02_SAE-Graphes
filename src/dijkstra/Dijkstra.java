@@ -1,7 +1,7 @@
 package dijkstra;
 import graph.IGraph;
 import graph.IGraph.Arc;
-import graph.IShortestPath;
+
 import java.util.*;
 
 public class Dijkstra<T> implements IShortestPath<T> {

@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.Arrays;
 
 import graph.IGraph;
-import graph.IShortestPath.Distances;
 import maze.regular.RegularMaze;
 import dijkstra.Dijkstra;
 

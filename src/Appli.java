@@ -1,6 +1,5 @@
 import graph.IGraph;
 import graph.GrapheHHAdj;
-import graph.IVarIGraph;
 
 public class Appli {
     public static void main(String[] args) {
