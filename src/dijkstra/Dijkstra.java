@@ -1,13 +1,13 @@
 package dijkstra;
-import graph.Graph;
-import graph.Graph.Arc;
-import graph.ShortestPath;
+import graph.IGraph;
+import graph.IGraph.Arc;
+import graph.IShortestPath;
 import java.util.*;
 
-public class Dijkstra<T> implements ShortestPath<T> {
+public class Dijkstra<T> implements IShortestPath<T> {
 
 	@Override
-	public Distances<T> compute(Graph<T> g, T src, Animator<T> animator) throws IllegalArgumentException {
+	public Distances<T> compute(IGraph<T> g, T src, Animator<T> animator) throws IllegalArgumentException {
 		Map<T, Integer> dist = new HashMap();
 		Map<T, T> pred = new HashMap();
 		Set<T> visited = new HashSet<>();

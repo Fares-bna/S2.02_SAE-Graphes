@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-import graph.Graph;
-import graph.ShortestPath.Distances;
+import graph.IGraph;
+import graph.IShortestPath.Distances;
 import maze.panel.MazeView;
 import maze.regular.RegularMaze;
 import dijkstra.Dijkstra;
@@ -21,7 +21,7 @@ public class Animation {
 			System.out.println("ficher '" + mazeFile + "' manquant ou au mauvais format");
 			return;
 		}
-		Graph<Integer> graph = new GraphMaze<>(maze);
+		IGraph<Integer> graph = new IGraphMaze<>(maze);
 		MazeView<Integer> view = MazeView.view(maze, mazeFile);
 		int start = 0;
 		int end = maze.width() * maze.height() - 1;

@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34228daf-bc65-44f3-b2e8-6117f28a49a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SAEgraphe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dijkstra/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dijkstra/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dijkstra/test/DijkstraTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/GrapheHHAdj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/GrapheHHAdj.java" afterDir="false" />
+    <list default="true" id="34228daf-bc65-44f3-b2e8-6117f28a49a4" name="Changes" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Appli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Appli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adaptator/GraphMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adaptator/GraphMaze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/GrapheMatriceAdj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/GrapheMatriceAdj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/IGraphList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/IShortestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/IShortestPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/IVarIGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/IVarIGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Legros yannis &lt;135102717+cwannis@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -117,10 +122,30 @@
       <workItem from="1747494319370" duration="196000" />
       <workItem from="1747494596270" duration="2017000" />
       <workItem from="1747497721050" duration="4353000" />
+      <workItem from="1747510716966" duration="261000" />
+      <workItem from="1747511033504" duration="12000" />
+      <workItem from="1747511370997" duration="358000" />
+      <workItem from="1747571692510" duration="221000" />
+      <workItem from="1747571950533" duration="406000" />
+      <workItem from="1747573216692" duration="356000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <option name="closed" value="true" />
+      <created>1747510802362</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747510802362</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Appli.java" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>

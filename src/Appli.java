@@ -1,14 +1,12 @@
-import graph.Graph;
+import graph.IGraph;
 import graph.GrapheHHAdj;
-import graph.VarGraph;
-import graph.IGraphList;
-import java.util.ArrayList;
+import graph.IVarIGraph;
 
 public class Appli {
     public static void main(String[] args) {
-        VarGraph g = new GrapheHHAdj();
+        IVarIGraph g = new GrapheHHAdj();
         g.peupler("A-B(6), A-C(1), A-D(2), B-E(1), C-E(4), D-B(1), E-F(1)");
-        for(Graph.Arc a : g.getSucc("A"))
+        for(IGraph.Arc a : g.getSucc("A"))
         {
             System.out.println(a);
         }

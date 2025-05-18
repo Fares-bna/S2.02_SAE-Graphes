@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class GrapheHHAdj implements VarGraph {
+public class GrapheHHAdj implements IVarIGraph {
 
 	ArrayList<String> allSommets;
 	HashMap<String, ArrayList<DestVal>> allArcs;
