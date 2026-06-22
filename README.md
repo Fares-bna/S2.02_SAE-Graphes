@@ -12,5 +12,5 @@ Ce projet représente l'implémentation de l'algorithme de Djikstra, dans un jeu
     - Laurent Giustignano 
 
 ## Lancer le projet
-- Ouvrir votre IDE habituelle Java
-- Compiler/exécuter le fichier Appli.java
+    - Ouvrir votre IDE habituelle Java
+    - Compiler/exécuter le fichier Appli.java
